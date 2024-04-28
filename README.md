@@ -1,11 +1,17 @@
 # BeginningClojureEnv
 ## Problems:
 > I'm not a developer but I've been told clojure is great but all the flags of clj or clojure confuse and infuriate me.
+> 
 > Leiningen was easy but no longer used and had package issues. (The author of this repo had issues if packages were placed in an airgapped environemt
+>
 > How do I build an uberjar again, because I just want to compile and run this?
+>
 > Templating projects that I just need to get working, feel complicated, though I know I need testing ...
+>
 > Do I need to explore make files and multi-alais deps.edn to make this work?
+>
 > I can't bring in babashka 
+>
 > I'm on windows, and because I am not a developer, I can't used Visual Studio.
 
 ## Answer:
