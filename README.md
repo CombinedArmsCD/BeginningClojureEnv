@@ -1,7 +1,5 @@
 # BeginningClojureEnv
 
-Quick test of ssh key signing and push.
-
 ## Problems:
 > I'm not a developer but I've been told clojure is great but all the flags of clj or clojure confuse and infuriate me.
 
