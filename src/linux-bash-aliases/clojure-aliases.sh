@@ -14,6 +14,10 @@ _run_clojure_repl () {
 
 _run_clojure_tool_docs () {
   /usr/local/bin/clojure -A:deps -T$1 help/doc
+}i
+
+_run_clojure_kaocha_cli () {
+    clojure -M:test/run-fm-cli "$@"
 }
 
 ########## Core functions End ##########
@@ -44,11 +48,10 @@ clojure-repl () {
 
 
 clojure-tool-docs () {
-
-
   _run_clojure_tool_docs $1
-
-
 }
+
+clojure-test-run () {
+    _run_clojure_kaocha_cli "$@"
 
 ########## Wrapping function End ##########
